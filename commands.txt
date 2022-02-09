@@ -1,0 +1,11 @@
+# Init environment
+eb init
+
+# Create environment
+eb create wishenv -c wishapi
+
+# Deploy code changes
+eb deploy
+
+
+
